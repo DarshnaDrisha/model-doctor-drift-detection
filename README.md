@@ -49,8 +49,6 @@ Instead of building a complex model, this project focuses on:
 - Alerting when the **input environment changes**
 - Supporting **human-in-the-loop troubleshooting**
 
-This mirrors the responsibilities of **ML support engineers and MLOps engineers**.
-
 ---
 
 ## Project Concept
@@ -61,14 +59,6 @@ This mirrors the responsibilities of **ML support engineers and MLOps engineers*
 - Incoming production data represents the **environment**
 - When data distributions shift, the model is considered **at risk**
 - The system acts as a **doctor**, diagnosing changes and raising alerts
-
-### Key analogy
-
-> The *banana* (target concept) stays the same,  
-> but the *plate* (data distribution) changes.
-
-This project detects **plate changes**, not banana changes.
-
 ---
 
 ## Requirements
@@ -150,14 +140,6 @@ This project intentionally **does NOT**:
 - Detect label drift or concept drift
 - Automatically retrain the model
 - Guarantee that drift causes performance degradation
-
----
-
-## Use Cases
-
-- ML Support Engineer roles
-- Entry-level MLOps roles
-- Understanding production ML monitoring
 
 ---
 
